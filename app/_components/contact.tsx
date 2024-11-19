@@ -63,12 +63,12 @@ const Contact = () => {
             Feel free to view or download my resume:
           </p>
           <Link
-            href="/MB_Resume_og_pers"
+            href="/MB_Resume_og_pers.pdf"
             type="application/pdf"
             target="_blank"
-            rel="noopener noreferrer"
             locale={false}
             title="Open my resume in a new tab"
+            rel="noopener noreferrer"
             className={styles.button}
             ref={button}
           >

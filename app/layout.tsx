@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Source_Sans_3 } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import Script from "next/script";
 import "./globals.css";
+import Script from "next/script";
 
 const montserrat = Montserrat({
   display: "swap",
@@ -22,14 +21,14 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: "Kaushal Prakash — Portfolio",
-  icons:{
-    icon:"/icon.png"
+  icons: {
+    icon: "/icon.png",
   },
-  description:
-    "Kaushal is an Full Stack Developer with a strong technical background, dedicated to creating projects that deliver innovative and sustainable digital solutions",
+  description: 
+    "Kaushal is a Full Stack Developer with a strong technical background, dedicated to creating projects that deliver innovative and sustainable digital solutions",
   authors: [{ name: "Kaushal Prakash" }],
   keywords:
-    "Kaushal Prakash, Project Manager, IT Project Manager, Frontend Developer, Web Developer, UI Design, Full Stack Developer, Student",
+    "Kaushal Prakash, Frontend Developer, Web Developer, UI Design, Full Stack Developer, Student",
 };
 
 export default function RootLayout({
@@ -40,16 +39,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <Script
-          id="CookieYes"
-          src={`https://cdn-cookieyes.com/client_data/91650f913ccfc2afab34de8c/script.js`}
-          strategy="beforeInteractive"
-        /> */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-W59VE8W7L8"></Script>
+        <Script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{ __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W59VE8W7L8');
+          `}}
+        />
       </head>
       <body className={`${montserrat.variable} ${sourceSans.variable}`}>
         {children}
       </body>
-      {/* <GoogleAnalytics gaId="G-DZL0Y5P3XE" /> */}
     </html>
   );
 }
