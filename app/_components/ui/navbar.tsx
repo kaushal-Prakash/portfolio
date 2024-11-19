@@ -131,7 +131,7 @@ const Navbar = () => {
       <div className={styles.links} ref={links}>
         <Link href="#about">About</Link>
         <Link href="#projects">Projects</Link>
-        <Link href="#experience">Experience</Link>
+        {/* <Link href="#experience">Experience</Link> */}
         <Link href="#contact">Contact</Link>
         <Link
           href="/MB_Resume_og_pers.pdf"

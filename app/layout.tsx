@@ -37,16 +37,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
+        {/* <Script
           id="CookieYes"
           src={`https://cdn-cookieyes.com/client_data/91650f913ccfc2afab34de8c/script.js`}
           strategy="beforeInteractive"
-        />
+        /> */}
       </head>
       <body className={`${montserrat.variable} ${sourceSans.variable}`}>
         {children}
       </body>
-      <GoogleAnalytics gaId="G-DZL0Y5P3XE" />
+      {/* <GoogleAnalytics gaId="G-DZL0Y5P3XE" /> */}
     </html>
   );
 }
