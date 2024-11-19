@@ -11,9 +11,9 @@ const Footer = () => {
         <div className={styles.links}>
           <div className={styles.contact}>
             <h4>Contact</h4>
-            <Link href="callto:+48733326433">+48 733 326 433</Link>
+            <Link href="callto:+919801134889">+91 9801134889</Link>
             <Link href="mailto:maciej@bernatowicz.dev">
-              maciej@bernatowicz.dev
+            thee.shadow.dev@gmail.com
             </Link>
           </div>
 
@@ -21,10 +21,10 @@ const Footer = () => {
             <div className={styles.social}>
               <h4 className={styles.desktopH4}>Connect with Me</h4>
               <h4 className={styles.mobileH4}>Socials</h4>
-              <Link href="https://linkedin.com/macber" target="_blank">
+              <Link href="https://www.linkedin.com/in/devkaushalprakash/" target="_blank">
                 LinkedIn
               </Link>
-              <Link href="https://github.com/malcewicz" target="_blank">
+              <Link href="https://github.com/kaushal-Prakash" target="_blank">
                 GitHub
               </Link>
               <Link
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.copy}>
-          <h4>&copy; 2024 Maciej Bernatowicz</h4>
+          <h4>&copy; 2024 Kaushal Prakash</h4>
           <h4 onClick={scrollToTop}>Go back to top</h4>
         </div>
       </div>
