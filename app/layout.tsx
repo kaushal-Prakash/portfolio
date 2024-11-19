@@ -21,13 +21,13 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Maciej Bernatowicz — Portfolio V2",
+  title: "Kaushal Prakash — Portfolio",
   description:
-    "Maciej is an IT Project Manager with a strong technical background, dedicated to leading projects that deliver innovative and sustainable digital solutions",
-  authors: [{ name: "Maciej Bernatowicz" }],
+    "Kaushal is an Full Stack Developer with a strong technical background, dedicated to creating projects that deliver innovative and sustainable digital solutions",
+  authors: [{ name: "Kaushal Prakash" }],
   keywords:
-    "Maciej Bernatowicz, Maciej, Bernatowicz, Project Manager, IT Project Manager, Frontend Developer, Web Developer, UI Design",
-};
+    "Kaushal Prakash, Project Manager, IT Project Manager, Frontend Developer, Web Developer, UI Design, Full Stack Developer, Student",
+  };
 
 export default function RootLayout({
   children,
