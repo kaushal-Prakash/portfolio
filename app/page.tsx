@@ -3,7 +3,7 @@ import {
   Hero,
   AboutMe,
   Projects,
-  Experience,
+  // Experience,
   Values,
   Contact,
   Footer,

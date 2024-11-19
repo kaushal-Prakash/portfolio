@@ -43,6 +43,7 @@ const Values = () => {
             informed.
           </p>
           <div className={styles.icon}>
+            
             <CommunicationIcon />
           </div>
         </div>
