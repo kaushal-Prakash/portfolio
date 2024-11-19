@@ -7,30 +7,31 @@ import styles from "@/app/_styles/projects.module.css";
 
 const projectData = [
   {
-    title: "Wakely",
+    title: "Attendly",
     description:
-      "What if an app could seamlessly blend beauty with functionality? Wakely does just that. Designed with Figma and brought to life using Flutter, it offers a sleek, user-friendly experience in both light and dark modes.",
-    tags: ["Figma", "Flutter", "Dart"],
-    image: "/images/wakely.png",
-    alt: "Wakely App",
+      "Imagine an app that flawlessly merges aesthetic appeal with functionality. Attendly achieves this beautifully. Realized through Next.jsand MongoDB, it provides a smooth, user-centric experience.",
+    tags: ["Next", "MongoDb", "Express","Tailwind"],
+    image: "/images/attendly.png",
+    alt: "Attendly App",
+    link: "https://nie-attendly.vercel.app/",
   },
   {
-    title: "Lakeview Apartments",
+    title: "Astoneaone",
     description:
-      "For LakeView, I crafted a clean, responsive single-page website tailored to my client's needs. Using a Mobile First approach, I ensured a user-friendly experience that has drawn thousands of visitors since its launch.",
-    tags: ["Figma", "HTML", "CSS", "JavaScript"],
-    image: "/images/lakeview.png",
+      "Astonraone is the official website for Diamond Group, a leading retail company offering a diverse range of high-quality products across multiple categories. Our platform ensures a seamless shopping experience, providing customers with a wide selection of items to meet their needs and preferences.",
+    tags: ["Next","Nodemailer","Tailwind","Express"],
+    image: "/images/astoneaone.png",
     alt: "Lakeview Apartments Website",
-    link: "https://www.lakeviewprzewiez.pl/",
+    link: "https://astoneaone.vercel.app/",
   },
   {
-    title: "Sushi Project",
+    title: "Community App",
     description:
-      "Can a website be as delightful as the cuisine it features? This project, built while learning Vite, features swift loading times and playful animations. While the design credits go to Pickolab studio, the coding showcases my technical skills.",
-    tags: ["Vite", "HTML", "CSS", "JavaScript"],
-    image: "/images/sushi.png",
-    alt: "Sushi Project Website",
-    link: "https://sushi-project-malcewicz.vercel.app/",
+      "Developed using React and Appwrite, our community webapp enables students to seamlessly share and access important updates, fostering real-time collaboration and engagement.",
+    tags: ["Appwrite", "React", "Tailwind"],
+    image: "/images/community.png",
+    alt: "Nie community app",
+    link: "https://nie-community.vercel.app/",
   },
 ];
 
