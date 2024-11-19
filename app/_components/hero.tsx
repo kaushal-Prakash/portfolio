@@ -10,8 +10,7 @@ const Hero = () => {
           <span>Technology and Cooperation</span>
         </h1>
         <p className={styles.description}>
-          With a foundation in software development and a passion for project
-          management, I bring a unique blend of technical expertise and
+          With a foundation in software development, I bring a unique blend of technical expertise and
           strategic oversight to every project, turning complex challenges into
           seamless solutions.
         </p>
