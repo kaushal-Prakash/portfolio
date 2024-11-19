@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "mb-portfolio-v2",
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
