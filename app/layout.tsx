@@ -22,12 +22,15 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: "Kaushal Prakash — Portfolio",
+  icons:{
+    icon:"/icon.png"
+  },
   description:
     "Kaushal is an Full Stack Developer with a strong technical background, dedicated to creating projects that deliver innovative and sustainable digital solutions",
   authors: [{ name: "Kaushal Prakash" }],
   keywords:
     "Kaushal Prakash, Project Manager, IT Project Manager, Frontend Developer, Web Developer, UI Design, Full Stack Developer, Student",
-  };
+};
 
 export default function RootLayout({
   children,
