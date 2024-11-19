@@ -18,7 +18,7 @@ const projectData = [
   {
     title: "Astoneaone",
     description:
-      "Astonraone is the official website for Diamond Group, a leading retail company offering a diverse range of high-quality products across multiple categories. Our platform ensures a seamless shopping experience, providing customers with a wide selection of items to meet their needs and preferences.",
+      "Astoneaone is the official website for Diamond Group, a leading retail company offering a diverse range of high-quality products across multiple categories. Our platform ensures a seamless shopping experience, providing customers with a wide selection of items to meet their needs and preferences.",
     tags: ["Next","Nodemailer","Tailwind","Express"],
     image: "/images/astoneaone.png",
     alt: "Lakeview Apartments Website",
